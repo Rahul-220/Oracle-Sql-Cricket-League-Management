@@ -1,0 +1,494 @@
+SQL> start projectDBqueries.sql
+
+Query 1:
+SNAME                                              TEAM1                                              TEAM2                                                                                             
+-------------------------------------------------- -------------------------------------------------- --------------------------------------------------                                                
+Chidambaram Stadium                                India                                              Afganistan                                                                                        
+Wankhede Stadium                                   India                                              Pakistan                                                                                          
+Chidambaram Stadium                                Bangladesh                                         Sri Lanka                                                                                         
+Wankhede Stadium                                   Pakistan                                           Bangladesh                                                                                        
+Chidambaram Stadium                                Afghanistan                                        Bangladesh                                                                                        
+
+Query 2
+
+    TEAMID TNAME                                               TOTALRUNS                                                                                                                                
+---------- -------------------------------------------------- ----------                                                                                                                                
+         1 India                                                    2266                                                                                                                                
+         3 Sri Lanka                                                2013                                                                                                                                
+Query 3
+
+    TEAMID TNAME                                              NO_OF_FANS                                                                                                                                
+---------- -------------------------------------------------- ----------                                                                                                                                
+         1 India                                                     101                                                                                                                                
+         2 Pakistan                                                   88                                                                                                                                
+         3 Sri Lanka                                                  87                                                                                                                                
+Query 4
+
+    TEAMID TNAME                                              TOTALTICKETS                                                                                                                              
+---------- -------------------------------------------------- ------------                                                                                                                              
+         1 India                                                      1750                                                                                                                              
+         1                                                            1750                                                                                                                              
+         2 Pakistan                                                   1550                                                                                                                              
+         2                                                            1550                                                                                                                              
+         3 Sri Lanka                                                  1300                                                                                                                              
+         3                                                            1300                                                                                                                              
+         4 Bangladesh                                                 1150                                                                                                                              
+         4                                                            1150                                                                                                                              
+         5 Afghanistan                                                 800                                                                                                                              
+         5                                                             800                                                                                                                              
+           Afghanistan                                                 800                                                                                                                              
+
+    TEAMID TNAME                                              TOTALTICKETS                                                                                                                              
+---------- -------------------------------------------------- ------------                                                                                                                              
+           Bangladesh                                                 1150                                                                                                                              
+           India                                                      1750                                                                                                                              
+           Pakistan                                                   1550                                                                                                                              
+           Sri Lanka                                                  1300                                                                                                                              
+                                                                      6550                                                                                                                              
+
+16 rows selected.
+
+Query 5:
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+         1 John                                                                                                                                                                                         
+         2 Alice                                                                                                                                                                                        
+         3 Bob                                                                                                                                                                                          
+         4 Eva                                                                                                                                                                                          
+         5 Michael                                                                                                                                                                                      
+         6 Sophia                                                                                                                                                                                       
+         7 Daniel                                                                                                                                                                                       
+         8 Olivia                                                                                                                                                                                       
+         9 Liam                                                                                                                                                                                         
+        10 Emma                                                                                                                                                                                         
+        11 Noah                                                                                                                                                                                         
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+        12 Ava                                                                                                                                                                                          
+        13 James                                                                                                                                                                                        
+        14 Mia                                                                                                                                                                                          
+        15 Sophie                                                                                                                                                                                       
+        16 Lucas                                                                                                                                                                                        
+        17 Isabella                                                                                                                                                                                     
+        18 Jackson                                                                                                                                                                                      
+        19 Aria                                                                                                                                                                                         
+        20 Logan                                                                                                                                                                                        
+        21 Sophia                                                                                                                                                                                       
+        22 Liam                                                                                                                                                                                         
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+        23 Emma                                                                                                                                                                                         
+        24 Noah                                                                                                                                                                                         
+        25 Ava                                                                                                                                                                                          
+        26 Ethan                                                                                                                                                                                        
+        27 Mia                                                                                                                                                                                          
+        28 James                                                                                                                                                                                        
+        29 Olivia                                                                                                                                                                                       
+        30 Lucas                                                                                                                                                                                        
+        31 Sophie                                                                                                                                                                                       
+        32 Daniel                                                                                                                                                                                       
+        33 Aria                                                                                                                                                                                         
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+        34 Jackson                                                                                                                                                                                      
+        35 Isabella                                                                                                                                                                                     
+        36 Mia                                                                                                                                                                                          
+        37 Noah                                                                                                                                                                                         
+        38 Emma                                                                                                                                                                                         
+        39 Liam                                                                                                                                                                                         
+        40 Sophia                                                                                                                                                                                       
+        41 Lucas                                                                                                                                                                                        
+        42 Olivia                                                                                                                                                                                       
+        43 Ethan                                                                                                                                                                                        
+        44 Ava                                                                                                                                                                                          
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+        45 Jackson                                                                                                                                                                                      
+        46 Sophie                                                                                                                                                                                       
+        47 Mia                                                                                                                                                                                          
+        48 Daniel                                                                                                                                                                                       
+        49 Noah                                                                                                                                                                                         
+        50 Aria                                                                                                                                                                                         
+        51 Olivia                                                                                                                                                                                       
+        52 Liam                                                                                                                                                                                         
+        53 Emma                                                                                                                                                                                         
+        54 Sophia                                                                                                                                                                                       
+        55 Lucas                                                                                                                                                                                        
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+        56 Ava                                                                                                                                                                                          
+        57 Isabella                                                                                                                                                                                     
+        58 Jackson                                                                                                                                                                                      
+        59 Noah                                                                                                                                                                                         
+        60 Mia                                                                                                                                                                                          
+        61 John                                                                                                                                                                                         
+        62 Alice                                                                                                                                                                                        
+        63 Bob                                                                                                                                                                                          
+        64 Eva                                                                                                                                                                                          
+        65 Michael                                                                                                                                                                                      
+        66 Sophia                                                                                                                                                                                       
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+        67 Daniel                                                                                                                                                                                       
+        68 Olivia                                                                                                                                                                                       
+        69 Liam                                                                                                                                                                                         
+        70 Emma                                                                                                                                                                                         
+        71 Noah                                                                                                                                                                                         
+        72 Ava                                                                                                                                                                                          
+        73 James                                                                                                                                                                                        
+        74 Mia                                                                                                                                                                                          
+        75 Sophie                                                                                                                                                                                       
+        76 Lucas                                                                                                                                                                                        
+        77 Isabella                                                                                                                                                                                     
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+        78 Jackson                                                                                                                                                                                      
+        79 Aria                                                                                                                                                                                         
+        80 Logan                                                                                                                                                                                        
+        81 Sophia                                                                                                                                                                                       
+        82 Liam                                                                                                                                                                                         
+        83 Emma                                                                                                                                                                                         
+        84 Noah                                                                                                                                                                                         
+        85 Ava                                                                                                                                                                                          
+        86 Ethan                                                                                                                                                                                        
+        87 Mia                                                                                                                                                                                          
+        88 James                                                                                                                                                                                        
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+        89 Olivia                                                                                                                                                                                       
+        90 Lucas                                                                                                                                                                                        
+        91 Sophie                                                                                                                                                                                       
+        92 Daniel                                                                                                                                                                                       
+        93 Aria                                                                                                                                                                                         
+        94 Jackson                                                                                                                                                                                      
+        95 Isabella                                                                                                                                                                                     
+        96 Mia                                                                                                                                                                                          
+        97 Noah                                                                                                                                                                                         
+        98 Emma                                                                                                                                                                                         
+        99 Liam                                                                                                                                                                                         
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+       100 Sophia                                                                                                                                                                                       
+       101 Lucas                                                                                                                                                                                        
+       102 Ram                                                                                                                                                                                          
+       103 Sophia                                                                                                                                                                                       
+       104 Mohit                                                                                                                                                                                        
+       105 Sam                                                                                                                                                                                          
+       106 John                                                                                                                                                                                         
+       107 Jane                                                                                                                                                                                         
+       108 Bob                                                                                                                                                                                          
+       109 Mary                                                                                                                                                                                         
+       110 Tom                                                                                                                                                                                          
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+       111 Sarah                                                                                                                                                                                        
+       112 Mike                                                                                                                                                                                         
+       113 Elizabeth                                                                                                                                                                                    
+       114 Daniel                                                                                                                                                                                       
+       115 David                                                                                                                                                                                        
+       116 Jennifer                                                                                                                                                                                     
+       117 Robert                                                                                                                                                                                       
+       118 Mark                                                                                                                                                                                         
+       119 Lisa                                                                                                                                                                                         
+       120 Karen                                                                                                                                                                                        
+       121 Nancy                                                                                                                                                                                        
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+       122 Paul                                                                                                                                                                                         
+       123 Susan                                                                                                                                                                                        
+       124 Charles                                                                                                                                                                                      
+       125 Mohit                                                                                                                                                                                        
+       126 John                                                                                                                                                                                         
+       127 Jane                                                                                                                                                                                         
+       128 Bob                                                                                                                                                                                          
+       129 Mary                                                                                                                                                                                         
+       130 Tom                                                                                                                                                                                          
+       131 Sarah                                                                                                                                                                                        
+       132 Mike                                                                                                                                                                                         
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+       133 Elizabeth                                                                                                                                                                                    
+       134 Daniel                                                                                                                                                                                       
+       135 David                                                                                                                                                                                        
+       136 Jennifer                                                                                                                                                                                     
+       137 Robert                                                                                                                                                                                       
+       138 Mark                                                                                                                                                                                         
+       139 Lisa                                                                                                                                                                                         
+       140 Karen                                                                                                                                                                                        
+       141 Nancy                                                                                                                                                                                        
+       142 Paul                                                                                                                                                                                         
+       143 Susan                                                                                                                                                                                        
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+       144 Charles                                                                                                                                                                                      
+       145 Mohit                                                                                                                                                                                        
+       146 John                                                                                                                                                                                         
+       147 Jane                                                                                                                                                                                         
+       148 Bob                                                                                                                                                                                          
+       149 Mary                                                                                                                                                                                         
+       150 Tom                                                                                                                                                                                          
+       151 Sarah                                                                                                                                                                                        
+       152 Mike                                                                                                                                                                                         
+       153 Elizabeth                                                                                                                                                                                    
+       154 Daniel                                                                                                                                                                                       
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+       155 David                                                                                                                                                                                        
+       156 Jennifer                                                                                                                                                                                     
+       157 Robert                                                                                                                                                                                       
+       158 Mark                                                                                                                                                                                         
+       159 Lisa                                                                                                                                                                                         
+       160 Karen                                                                                                                                                                                        
+       161 Nancy                                                                                                                                                                                        
+       162 Paul                                                                                                                                                                                         
+       163 Susan                                                                                                                                                                                        
+       164 Charles                                                                                                                                                                                      
+       165 Rachel                                                                                                                                                                                       
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+       166 Emily                                                                                                                                                                                        
+       167 Alex                                                                                                                                                                                         
+       168 Ryan                                                                                                                                                                                         
+       169 Sophie                                                                                                                                                                                       
+       170 Brandon                                                                                                                                                                                      
+       171 Jessica                                                                                                                                                                                      
+       172 Catherine                                                                                                                                                                                    
+       173 Dylan                                                                                                                                                                                        
+       174 Grace                                                                                                                                                                                        
+       175 Patrick                                                                                                                                                                                      
+       176 Lauren                                                                                                                                                                                       
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+       177 Samuel                                                                                                                                                                                       
+       178 Rachel                                                                                                                                                                                       
+       179 Eric                                                                                                                                                                                         
+       180 Katie                                                                                                                                                                                        
+       181 Justin                                                                                                                                                                                       
+       182 Nicole                                                                                                                                                                                       
+       183 Jared                                                                                                                                                                                        
+       184 Haley                                                                                                                                                                                        
+       185 Owen                                                                                                                                                                                         
+       186 Morgan                                                                                                                                                                                       
+       187 Benjamin                                                                                                                                                                                     
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+       188 Ella                                                                                                                                                                                         
+       189 Connor                                                                                                                                                                                       
+       190 Abigail                                                                                                                                                                                      
+       191 Jason                                                                                                                                                                                        
+       192 Julia                                                                                                                                                                                        
+       193 Vincent                                                                                                                                                                                      
+       194 Chloe                                                                                                                                                                                        
+       195 Kyle                                                                                                                                                                                         
+       196 Madison                                                                                                                                                                                      
+       197 Landon                                                                                                                                                                                       
+       198 Avery                                                                                                                                                                                        
+
+   SEATNUM FNAME                                                                                                                                                                                        
+---------- --------------------------------------------------                                                                                                                                           
+       199 Bryan                                                                                                                                                                                        
+       200 Samantha                                                                                                                                                                                     
+
+200 rows selected.
+
+Query 6:
+PNAME                                                  TEAMID    WICKETS TNAME                                              AVG_WICKETS_PER_TEAM                                                        
+-------------------------------------------------- ---------- ---------- -------------------------------------------------- --------------------                                                        
+Rohit Sharma                                                1          0 India                                                              3.53                                                        
+Shubman Gill                                                1          0 India                                                              3.53                                                        
+Ravichandran Ashwin                                         1          1 India                                                              3.53                                                        
+Mohammed Siraj                                              1          4 India                                                              3.53                                                        
+Mohammed Shami                                              1         11 India                                                              3.53                                                        
+Kuldeep Yadav                                               1         10 India                                                              3.53                                                        
+Jasprit Bumrah                                              1         11 India                                                              3.53                                                        
+Shardul Thakur                                              1          2 India                                                              3.53                                                        
+Ishan Kishan                                                1          0 India                                                              3.53                                                        
+Ravindra Jadeja                                             1          9 India                                                              3.53                                                        
+Hardik Pandya                                               1          5 India                                                              3.53                                                        
+
+PNAME                                                  TEAMID    WICKETS TNAME                                              AVG_WICKETS_PER_TEAM                                                        
+-------------------------------------------------- ---------- ---------- -------------------------------------------------- --------------------                                                        
+KL Rahul                                                    1          0 India                                                              3.53                                                        
+Suryakumar Yadav                                            1          0 India                                                              3.53                                                        
+Shreyas Iyer                                                1          0 India                                                              3.53                                                        
+Virat Kohli                                                 1          0 India                                                              3.53                                                        
+Babar Azam                                                  2          0 Pakistan                                                            4.2                                                        
+Usama Mir                                                   2          7 Pakistan                                                            4.2                                                        
+Mohammad Wasim Jr                                           2          2 Pakistan                                                            4.2                                                        
+Hasan Ali                                                   2          8 Pakistan                                                            4.2                                                        
+Haris Rauf                                                  2         12 Pakistan                                                            4.2                                                        
+Mohammad Rizwan                                             2          0 Pakistan                                                            4.2                                                        
+Mohammad Nawaz                                              2          5 Pakistan                                                            4.2                                                        
+
+PNAME                                                  TEAMID    WICKETS TNAME                                              AVG_WICKETS_PER_TEAM                                                        
+-------------------------------------------------- ---------- ---------- -------------------------------------------------- --------------------                                                        
+Shadab Khan                                                 2          9 Pakistan                                                            4.2                                                        
+Saud Shakeel                                                2          0 Pakistan                                                            4.2                                                        
+Agha Salman                                                 2          5 Pakistan                                                            4.2                                                        
+Iftikar Ahmed                                               2          2 Pakistan                                                            4.2                                                        
+Imam-ul-Haq                                                 2          0 Pakistan                                                            4.2                                                        
+Fakhar Zaman                                                2          0 Pakistan                                                            4.2                                                        
+Abdullah Shafique                                           2          0 Pakistan                                                            4.2                                                        
+Shaheen Afridi                                              2         13 Pakistan                                                            4.2                                                        
+Pathum Nissanka                                             3          0 Sri Lanka                                                          4.33                                                        
+Dimuth Karunaratne                                          3          0 Sri Lanka                                                          4.33                                                        
+Charith Asalanka                                            3          0 Sri Lanka                                                          4.33                                                        
+
+PNAME                                                  TEAMID    WICKETS TNAME                                              AVG_WICKETS_PER_TEAM                                                        
+-------------------------------------------------- ---------- ---------- -------------------------------------------------- --------------------                                                        
+Dhananjaya de Silva                                         3          6 Sri Lanka                                                          4.33                                                        
+Angelo Mathews                                              3          6 Sri Lanka                                                          4.33                                                        
+Dishan Hemantha                                             3          8 Sri Lanka                                                          4.33                                                        
+Dunith Wellalage                                            3         10 Sri Lanka                                                          4.33                                                        
+Chamika Karunaratne                                         3          3 Sri Lanka                                                          4.33                                                        
+Kusal Mendis                                                3          0 Sri Lanka                                                          4.33                                                        
+Kusal Perera                                                3          0 Sri Lanka                                                          4.33                                                        
+Sadeera Samarawickrama                                      3          0 Sri Lanka                                                          4.33                                                        
+Maheesh Theekshana                                          3          8 Sri Lanka                                                          4.33                                                        
+Kasun Rajitha                                               3          7 Sri Lanka                                                          4.33                                                        
+Lahiru Kumara                                               3          5 Sri Lanka                                                          4.33                                                        
+
+PNAME                                                  TEAMID    WICKETS TNAME                                              AVG_WICKETS_PER_TEAM                                                        
+-------------------------------------------------- ---------- ---------- -------------------------------------------------- --------------------                                                        
+Dilshan Madushanka                                          3         12 Sri Lanka                                                          4.33                                                        
+Najmul Shanto                                               4          0 Bangladesh                                                         4.07                                                        
+Towhid Hridoy                                               4          0 Bangladesh                                                         4.07                                                        
+Nasum Ahmed                                                 4          0 Bangladesh                                                         4.07                                                        
+Tanzim Sakib                                                4          1 Bangladesh                                                         4.07                                                        
+Shoriful Islam                                              4          7 Bangladesh                                                         4.07                                                        
+Hasan Mahmud                                                4          2 Bangladesh                                                         4.07                                                        
+Mustafizur Rahman                                           4          8 Bangladesh                                                         4.07                                                        
+Taskin Ahmed                                                4          9 Bangladesh                                                         4.07                                                        
+Anamul Haque                                                4          0 Bangladesh                                                         4.07                                                        
+Litton Das                                                  4          0 Bangladesh                                                         4.07                                                        
+
+PNAME                                                  TEAMID    WICKETS TNAME                                              AVG_WICKETS_PER_TEAM                                                        
+-------------------------------------------------- ---------- ---------- -------------------------------------------------- --------------------                                                        
+Mushfiqur Rahim                                             4          0 Bangladesh                                                         4.07                                                        
+Mehidy Hasan Miraz                                          4          9 Bangladesh                                                         4.07                                                        
+Mahmudullah                                                 4          6 Bangladesh                                                         4.07                                                        
+Mahedi Hasan                                                4          9 Bangladesh                                                         4.07                                                        
+Shakib Al Hasan                                             4         10 Bangladesh                                                         4.07                                                        
+Ibrahim Zadran                                              5          0 Afghanistan                                                        3.47                                                        
+Riaz Hassan                                                 5          0 Afghanistan                                                        3.47                                                        
+Naveen-ul-Haq                                               5          9 Afghanistan                                                        3.47                                                        
+Fazalhaq Farooqi                                            5          7 Afghanistan                                                        3.47                                                        
+Mujeeb-Ur-Rahman                                            5          7 Afghanistan                                                        3.47                                                        
+Noor Ahmed                                                  5          8 Afghanistan                                                        3.47                                                        
+
+PNAME                                                  TEAMID    WICKETS TNAME                                              AVG_WICKETS_PER_TEAM                                                        
+-------------------------------------------------- ---------- ---------- -------------------------------------------------- --------------------                                                        
+Ikram Alikhil                                               5          0 Afghanistan                                                        3.47                                                        
+Rahmanullah Gurbaz                                          5          0 Afghanistan                                                        3.47                                                        
+Rashid Khan                                                 5         12 Afghanistan                                                        3.47                                                        
+Azmatullah Omarzai                                          5          4 Afghanistan                                                        3.47                                                        
+Mohammad Nabi                                               5          5 Afghanistan                                                        3.47                                                        
+Hashmatullah Shahidi                                        5          0 Afghanistan                                                        3.47                                                        
+Najibullah Zadran                                           5          0 Afghanistan                                                        3.47                                                        
+Rahmat Shah                                                 5          0 Afghanistan                                                        3.47                                                        
+Abdul Rahman                                                5          0 Afghanistan                                                        3.47                                                        
+
+75 rows selected.
+
+Query 7:
+
+
+    TEAMID TNAME                                              HIGHESTRUNS                                                                                                                               
+---------- -------------------------------------------------- -----------                                                                                                                               
+         1 India                                                      413                                                                                                                               
+         3 Sri Lanka                                                  324                                                                                                                               
+         2 Pakistan                                                   321                                                                                                                               
+         5 Afghanistan                                                312                                                                                                                               
+         4 Bangladesh                                                 245                                                                                                                               
+
+Query 8:
+       AGE ATTENDANCECOUNT                                                                                                                                                                              
+---------- ---------------                                                                                                                                                                              
+        28             245                                                                                                                                                                              
+        30             240                                                                                                                                                                              
+        26             217                                                                                                                                                                              
+        31             207                                                                                                                                                                              
+        29             206                                                                                                                                                                              
+        23             192                                                                                                                                                                              
+        25             167                                                                                                                                                                              
+        19             161                                                                                                                                                                              
+        22             152                                                                                                                                                                              
+        27             144                                                                                                                                                                              
+        24             124                                                                                                                                                                              
+
+       AGE ATTENDANCECOUNT                                                                                                                                                                              
+---------- ---------------                                                                                                                                                                              
+        33             116                                                                                                                                                                              
+        32             107                                                                                                                                                                              
+
+13 rows selected.
+
+Query 9:
+
+MLOCATION                                          STADIUMNAME                                           MATCHID TOTALTICKETSSOLD                                                                       
+-------------------------------------------------- -------------------------------------------------- ---------- ----------------                                                                       
+Mumbai                                             Wankhede Stadium                                            4              200                                                                       
+Mumbai                                             Wankhede Stadium                                           13              250                                                                       
+Kolkata                                            Eden Gardens Stadium                                       12              250                                                                       
+Kolkata                                            Eden Gardens Stadium                                        7              250                                                                       
+Kolkata                                            Eden Gardens Stadium                                        3              250                                                                       
+Mumbai                                             Wankhede Stadium                                            2              250                                                                       
+Delhi                                              Arun Jaitley Stadium                                        5              300                                                                       
+Delhi                                              Arun Jaitley Stadium                                        8              300                                                                       
+Banglore                                           M Chinnaswamy Stadium                                       9              300                                                                       
+Banglore                                           M Chinnaswamy Stadium                                       1              300                                                                       
+Chennai                                            Chidambaram Stadium                                        11              300                                                                       
+
+MLOCATION                                          STADIUMNAME                                           MATCHID TOTALTICKETSSOLD                                                                       
+-------------------------------------------------- -------------------------------------------------- ---------- ----------------                                                                       
+Chennai                                            Chidambaram Stadium                                        10              300                                                                       
+Chennai                                            Chidambaram Stadium                                         6              300                                                                       
+Delhi                                                                                                                         600                                                                       
+Delhi                                              Arun Jaitley Stadium                                                       600                                                                       
+Banglore                                                                                                                      600                                                                       
+Banglore                                           M Chinnaswamy Stadium                                                      600                                                                       
+Mumbai                                                                                                                        700                                                                       
+Mumbai                                             Wankhede Stadium                                                           700                                                                       
+Kolkata                                                                                                                       750                                                                       
+Kolkata                                            Eden Gardens Stadium                                                       750                                                                       
+Chennai                                                                                                                       900                                                                       
+
+MLOCATION                                          STADIUMNAME                                           MATCHID TOTALTICKETSSOLD                                                                       
+-------------------------------------------------- -------------------------------------------------- ---------- ----------------                                                                       
+Chennai                                            Chidambaram Stadium                                                        900                                                                       
+                                                                                                                             3550                                                                       
+
+24 rows selected.
+
+Query 10:
+
+PNAME                                                                                                                                                                                                   
+--------------------------------------------------                                                                                                                                                      
+Shaheen Afridi                                                                                                                                                                                          
+
+
+Query 11:
+
+PNAME                                                                                                                                                                                                   
+--------------------------------------------------                                                                                                                                                      
+KL Rahul                                                                                                                                                                                                
+
+SQL> spool off
